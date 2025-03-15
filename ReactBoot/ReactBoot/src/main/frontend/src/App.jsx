@@ -46,6 +46,7 @@ function App() {
             <button onClick={()=>{
                 testSet(null);
                 testSet2(null);
+                setTestList([]);
             }}> 초기화</button>
 
             {
